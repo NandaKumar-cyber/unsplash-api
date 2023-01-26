@@ -39,7 +39,7 @@ function App() {
 
   const fetchImages = (count = 10) => {
     const apiRoot = "https://api.unsplash.com";
-    const accessKey = process.env.REACT_APP_ACCESSKEY;
+    const accessKey = "WlJX53ls9zS8IF9z6RcocVklGRHi2NrsPYuOLHaKtAI";
 
     axios
       .get(`${apiRoot}/photos/random?client_id=${accessKey}&count=${count}`)
